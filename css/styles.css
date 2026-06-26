@@ -1,0 +1,53 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6d28d9 0%, #7c3aed 100%) !important;
+  border-bottom: 1px solid #5b21b6;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .btn-link {
+  color: #ffffff !important;
+}
+
+.navbar .btn-outline-dark {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.navbar .btn-outline-dark:hover {
+  background-color: #ffffff;
+  color: #6d28d9;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover,
+.navbar .btn-link:hover {
+  color: #f5e8ff !important;
+}
+
+.btn-dark,
+.btn-dark:hover {
+  background-color: #6d28d9;
+  border-color: #6d28d9;
+  color: #ffffff;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0.5rem 0 0;
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+.card-rating .star {
+  color: #f59e0b;
+}
